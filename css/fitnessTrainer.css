@@ -1,0 +1,429 @@
+.navbar-collapse .navbar-right{
+	margin-right: 45px!important;
+}
+.navbar-default .navbar-nav>.open>a, 
+.navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.open>a:hover {
+    background-color: white!important;
+}
+.tu{
+	position: relative;
+}
+.container{
+	margin-left: 0!important;
+	margin-right: 0!important;
+	padding-left: 0!important;
+}
+#box1{
+	width: 100%;
+	height: auto;
+	position: absolute;
+	margin-top: -15%;
+	text-align: center;
+}
+		
+.txt1{
+	text-align: center;
+	display: block;
+	font-size: 30px;	
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+}
+.txt2{
+	text-align: center;
+	display: block;
+	font-size: 16px;	
+	color: white;
+	font-family: "Times New Roman", Times, serif;
+}
+
+/*第四部分栅格系统*/
+.screen2{
+	width: 100%;
+	height: auto;
+	/*background-color: blueviolet;*/
+	position: relative;
+}
+.box4{
+	width: 90%;
+	height: auto;
+	/*background-color: yellow;*/
+	position: relative;
+	margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+/*动画效果*/
+.box4{
+	animation: go 3s ease;
+}
+@keyframes go{
+    from {
+        top : -200px;
+        opacity: 0;
+    }
+    to {
+        top : 0px;
+        opacity: 1;
+    }
+}
+
+.row{
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.row1 .col-md-4{
+	width: 30%;
+	margin: 5px 12px;
+	height: auto;
+	padding-left:0 ;
+	padding-right: 0;
+}
+
+.col1{
+	height:auto;
+	overflow: hidden;	
+}
+.col1::before{
+	content: '性感热心的tikky老师，教你如何在短短一月内拥有s板曲线的身材。';
+	width: 100%;
+	height: 50%;
+	padding-bottom: 40%;
+	position: absolute;
+	background-color: white;
+	text-align: center;
+	font-size: 1vmax;
+	color: gray;
+	bottom: 0;
+	display: none;
+}
+
+.col1::after{
+	content: '形体教练 — tikky';
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	font-size: 2vmax;
+	font-weight: 700;
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding-top: 40%;
+	top: 0;
+	/*box-shadow: 10px 10px 5px #888888;*/
+	display: none;
+}
+.col:hover img{
+	transform: scale(1.2);
+	transition: 1s;
+}
+.col1:hover{
+	box-shadow: 0px 0px 15px paleturquoise;
+} 
+
+.col1:hover::after,.col1:hover::before{
+	display: block;
+	transition: 5s linear inherit;
+}
+
+.row .dtu img{
+	display: block;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+/*资深团队教练内容的样式*/
+.teambt{
+	background: url(../img/fitness/fitness7.jpg)no-repeat;
+	background-size: cover;
+    background-position: center;
+    padding: 70px 0px;
+}
+.teambt .teamtxt{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	font-size: 2.5vmax;
+    color: #4cd495;
+}
+.teambt .teamtxt2{
+	text-align: center;
+	transform: matrix(1, 0, 0, 1, 0, 0);
+	padding: 0 10%;
+	padding-top: 2%;
+	padding-bottom: 5%;
+    font-size: 1.2vmax;
+    color: #999999;
+}
+/*团队教练特效样式*/
+.teamrow{
+	width: 100%;
+	height: auto;
+	/*background: yellow;*/
+}
+
+#teambox{
+	width: 100%;
+	height: auto;
+	/*padding: 0 auto;*/
+	margin-left: auto;
+	margin-right: auto;
+	background: palegoldenrod;
+}
+.col-xs-12, 
+.col-sm-6, 
+.col-md-3{
+	padding-left: 0px!important;
+	padding-right: 0px!important;
+}
+.teamrow .spic{
+	width: 25%;
+	height: 400px;
+	/*清除浮动，把多余的删除*/	
+	overflow: hidden;
+}
+.teamrow .spic img{
+	width: 100%;
+	height: 80%;
+}
+.teamrow #teambox:hover li{
+	width:20%;
+}
+ .teamrow #teambox:hover li:hover{
+	width: 40%;
+}
+
+
+
+
+
+/*健康小知识*/
+.boxtxt{
+	background: url(../img/fitness/vd1.jpg)no-repeat;
+	width: 100%;
+	height: auto;
+	/*background:  #2a333c;*/
+	padding-bottom: 6%;
+}
+.boxtxt .row1{
+	padding-left: 10%;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	color: black;
+}
+
+.boxtxt .col-xs-12 .txt{
+	font-size: 50px;
+	font-weight: bold;
+	color: black;
+}
+.r1{
+	transform: translate(2%,10%);
+	width: 100%;
+	height: 28%;
+}
+.lfbt{
+	width: 100px;
+	height: 130px;
+	background: #5e5e5e;
+	text-align: center;
+}
+
+.boxtxt .row1 .txtlt{
+	font-size: 52px;
+	color: black;
+}
+.boxtxt .row1 .date{
+	font-size: 17px;
+	color:black;
+}
+.boxtxt .row1 .time{
+	font-size: 17px;
+	color:black;
+	padding-top: 1%;
+}
+
+.boxtxt .rtbt{
+	height: 130px;
+    background: #a6a6a6;
+}
+.boxtxt .rtbt a{
+	text-decoration: none;
+    color: #62a8ea;
+    background-color: transparent;
+    
+}
+.boxtxt .txtrt1{
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+	font-size: 20px;
+	color: #000000;
+	line-height: 30px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 2%;
+	
+}
+.boxtxt .txtrt2{
+	/*前三行代码是超出文字出现省略*/
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 80%;
+    font-size: 14px;
+    display: inline-block;
+	color: white;
+	padding-left: 2%;
+	padding-bottom: 4.6%;
+}
+
+.row1:hover .txtlt,
+.row1:hover .date,
+.row1:hover .time{
+	color: white;
+	transition: all 0.5;
+}
+.row1:hover .txtrt2{
+	color: black;
+	transition: all 0.5;
+}
+
+
+
+/*底部内容的样式*/
+.footer{
+	width: 100%;
+	height: auto;
+	background-color: rgb(25, 32, 37);
+}
+
+.foottxt{
+	position: absolute;
+	font-size: 20px;
+    color: rgb(153, 153, 153);
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.foottxt2{
+	padding-left: 1%;
+}
+.num{
+	color: rgb(153, 153, 153)!important;
+	padding-top:10%;
+	padding-left: 22%;
+}
+.foottu{
+	margin-top:2%;
+	margin-left: 1.5%;
+}
+
+/*返回顶部样式*/
+#top{
+	width: 35px;
+	height: 35px;
+	background-color: gray;
+	opacity: 0.7;
+	position: fixed;
+	right: 20px;
+	bottom: 25px;
+	display: none;
+}
+
+.toptxt{
+	margin: 14px 8px;
+	text-align: center;
+	font-size: 20px!important;
+	font-weight: 100!important;
+	color: white!important;
+	line-height: 40px;
+}
+
+
+
+/*媒体查询*/
+@media (max-width: 500px) { 
+	.box4 .col-xs-6{
+		width: 40%;
+		height: auto;
+	}
+	.box4{
+		margin-left: 9%;		
+	}
+	.carousel-inner img{
+		margin-top: 15%;
+	}
+	#box1{
+		margin-top: -23%;
+	}
+	
+	.boxtxt .row1{
+		padding-left: 0%;
+	}
+}
+
+@media (min-width:501px) and (max-width: 601px) { 
+	.box4 .col-xs-6{
+		width: 44%;
+		height: auto;
+	}
+	.box4{
+		margin-left: 5%;		
+	}
+	.carousel-inner img{
+		margin-top: 15%;
+	}
+	#box1{
+		margin-top: -23%;
+	}
+	.boxtxt .row1{
+		padding-left: 0%;
+	}
+}
+@media (min-width:602px) and (max-width: 768px) { 
+	.box4 .col-xs-6{
+		width: 40%;
+		height: auto;
+	}
+	.box4{
+		margin-left: 9%;		
+	}
+	.carousel-inner img{
+		margin-top: 12%;
+	}
+	#box1{
+		margin-top: -20%;
+	}
+	.boxtxt .row1{
+		padding-left: 0%;
+	}
+}
+@media (min-width:769px) and (max-width: 869px) { 
+	.box4 .col-xs-6{
+		width: 40%;
+		height: auto;
+	}
+	.box4{
+		margin-left: 9%;		
+	}
+	.carousel-inner img{
+		margin-top: 10%;
+	}
+	#box1{
+		margin-top: -20%;
+	}
+	
+	.boxtxt .row1{
+		padding-left: 5%;
+	}
+}
+@media (min-width:870px) and (max-width: 1000px) { 
+	.box4 .col-xs-6{
+		width: 40%;
+		height: auto;
+	}
+	.box4{
+		margin-left: 10%;		
+	}
+
+}
